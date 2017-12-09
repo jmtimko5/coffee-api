@@ -1,0 +1,23 @@
+{
+  "name": "coffee-api",
+  "version": "1.0.0",
+  "description": "A Node.js Express REST API to find the nearest coffee shop to an address in San Francisco Edit",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmtimko5/coffee-api.git"
+  },
+  "author": "Joe Timko <jmtimko5@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmtimko5/coffee-api/issues"
+  },
+  "homepage": "https://github.com/jmtimko5/coffee-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
