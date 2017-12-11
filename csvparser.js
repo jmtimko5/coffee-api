@@ -14,9 +14,10 @@ module.exports.parse = function(){
   .on('done',(error)=>{
   	console.log('end')
     console.log(result.length)
-    console.log(result)
+    // console.log(result)
+    // return result
     return result
   })
+  // return result
+  // console.log(result.length)
 }
-
-// module.exports = parse;
