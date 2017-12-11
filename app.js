@@ -1,6 +1,8 @@
 var express    = require('express');
 var app        = express();
 var bodyParser = require('body-parser');
+var parser = require('./csvparser')
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -20,4 +22,4 @@ console.log('Magic happens on port ' + port);
 
 console.log("Parsing");
 
-var p = require('./csvparser')
+console.log(parser.parse());
