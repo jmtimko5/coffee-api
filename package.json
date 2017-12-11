@@ -18,6 +18,8 @@
   "homepage": "https://github.com/jmtimko5/coffee-api#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "csv-parse": "^2.0.0",
+    "csvtojson": "^1.1.9",
     "express": "^4.16.2"
   }
 }
